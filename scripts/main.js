@@ -71,7 +71,7 @@ var tl = gsap.timeline({ paused: true });
 tl.to(menu, {
     duration: 1,
     opacity: 1,
-    height: '30vh', // change this to 100vh for full-height menu
+    height: '15vh',
     ease: 'expo.inOut',
 })
 tl.from(links, {

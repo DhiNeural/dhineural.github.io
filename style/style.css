@@ -31,6 +31,7 @@ h2 {
     max-width: 1200px;
 }
 
+	
 header {
     position: fixed;
     display: flex;
@@ -54,16 +55,16 @@ header {
         margin-left: auto;
 
         span {
-            font-size: 2rem;
+            font-size: 1vw;
             cursor: pointer;
         }
     }
 
     ul {
         position: absolute;
-        width: 20%;
-        top: 20%;
-        left: 75%;
+        width: 10vw;
+        top: 1vh;
+        left: 80vw;
         z-index: -1;
 
         background-color: #dbddda;
@@ -79,8 +80,8 @@ header {
         height: 0;
 
         li {
-            margin: 1rem 2rem;
-            font-size: 2rem;
+            margin: 0.3vw 1vw;
+            font-size: 1vw;
         }
     }
 }
